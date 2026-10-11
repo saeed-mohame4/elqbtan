@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>القبطان | Furniture & Interiors</title>
+<link rel="icon" href="WhatsApp Image 2026-10-07 at 9.57.03 PM.jpeg">
+<meta name="description" content="القبطان للأثاث والتصميم الداخلي">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+ <meta name="google-site-verification" content="h97icxDHUty79umSzL07K1PfwCvOeW1-rHR5UL3ua5c" />
+<meta charset="keyframes" content="elqobtan,ميش,كراسي,مراجيح,مصنع جدلات,جدلات">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--bg:#0d0b09;--cream:#f4eee5;--gold:#c79a5b;--brown:#765238;
+--muted:#a89d92;--line:rgba(255,255,255,.12);--white:#fff;
+}
+html{scroll-behavior:smooth}
+body{font-family:Cairo,sans-serif;background:var(--cream);color:#18130f;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+img{display:block;width:100%}
+button{font-family:inherit}
+.cursor{position:fixed;width:12px;height:12px;border-radius:50%;background:var(--gold);pointer-events:none;z-index:99999;mix-blend-mode:difference;transform:translate(-50%,-50%);transition:width .2s,height .2s}
+.progress{position:fixed;top:0;right:0;height:3px;width:0;background:var(--gold);z-index:10001}
+.loader{position:fixed;inset:0;background:#0d0b09;color:#fff;z-index:10000;display:grid;place-items:center;transition:.8s}
+.loader.hide{opacity:0;visibility:hidden}
+.loader-inner{text-align:center}
+.loader-logo{font:700 45px "Playfair Display";letter-spacing:5px}
+.loader-line{width:150px;height:1px;background:var(--gold);margin:20px auto;animation:load 1.4s infinite}
+@keyframes load{0%{transform:scaleX(0);opacity:0}50%{transform:scaleX(1);opacity:1}100%{transform:scaleX(0);opacity:0}}
+
+header{position:fixed;top:0;right:0;width:100%;z-index:1000;transition:.4s}
+header.scrolled{background:rgba(13,11,9,.88);backdrop-filter:blur(18px);box-shadow:0 15px 50px #0003}
+.nav{height:86px;max-width:1400px;margin:auto;padding:0 35px;display:flex;align-items:center;justify-content:space-between}
+.logo{font:700 27px "Playfair Display";color:#fff;letter-spacing:2px}.logo span{color:var(--gold)}
+.navlinks{display:flex;gap:35px;list-style:none}.navlinks a{color:#fff;font-size:13px;position:relative}
+.navlinks a:after{content:"";position:absolute;right:0;bottom:-9px;width:0;height:1px;background:var(--gold);transition:.3s}.navlinks a:hover:after{width:100%}
+.nav-cta{border:1px solid #ffffff55;color:#fff;padding:11px 21px;font-size:12px;transition:.3s}.nav-cta:hover{background:var(--gold);border-color:var(--gold);color:#111}
+.menu{display:none;background:none;border:0;color:#fff;font-size:27px}
+
+.hero{height:100vh;min-height:720px;position:relative;overflow:hidden;color:#fff;background:#111}
+.hero-bg{position:absolute;inset:-4%;background:
+linear-gradient(90deg,rgba(8,6,4,.92),rgba(8,6,4,.55),rgba(8,6,4,.2)),
+url("WhatsApp Image 2026-10-07 at 10.09.07 PM.jpeg") center/cover;animation:heroZoom 12s ease-out forwards}
+@keyframes heroZoom{from{transform:scale(1.08)}to{transform:scale(1)}}
+.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 75% 50%,transparent 0,rgba(0,0,0,.25) 60%,rgba(0,0,0,.5))}
+.hero-content{position:relative;z-index:2;max-width:1400px;margin:auto;height:100%;padding:170px 50px 50px;display:flex;flex-direction:column;justify-content:center}
+.kicker{font-size:12px;letter-spacing:5px;color:var(--gold);margin-bottom:20px}
+.hero h1{font:600 clamp(55px,8vw,112px)/.95 "Playfair Display";max-width:900px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero-text{max-width:560px;color:#ffffffaa;line-height:2;margin-top:28px;font-size:15px}
+.hero-actions{display:flex;gap:14px;margin-top:35px}
+.btn{padding:15px 29px;display:inline-flex;align-items:center;justify-content:center;font-size:13px;transition:.35s}
+.btn-gold{background:var(--gold);color:#17110c;font-weight:700}.btn-gold:hover{transform:translateY(-4px);background:#fff}
+.btn-outline{border:1px solid #ffffff55;color:#fff}.btn-outline:hover{background:#fff;color:#111}
+.hero-number{position:absolute;bottom:45px;left:50px;color:#ffffff66;font:20px "Playfair Display"}
+.scroll{position:absolute;bottom:40px;right:50%;transform:translateX(50%);z-index:3;color:#ffffff99;font-size:10px;letter-spacing:4px;writing-mode:vertical-rl}
+.scroll:after{content:"";display:block;width:1px;height:65px;background:var(--gold);margin:12px auto 0}
+
+.section{padding:125px 25px}.container{max-width:1250px;margin:auto}
+.section-head{text-align:center;max-width:700px;margin:0 auto 65px}
+.section-title{font:600 clamp(40px,5vw,68px)/1.05 "Playfair Display";color:#1c1510}
+.section-sub{color:#81766c;line-height:2;margin-top:18px;font-size:14px}
+.reveal{opacity:0;transform:translateY(40px);transition:1s cubic-bezier(.2,.7,.2,1)}.reveal.show{opacity:1;transform:none}
+
+.about{background:var(--cream)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}
+.about-visual{position:relative;height:610px}
+.about-big{height:100%;object-fit:cover}
+.about-card{position:absolute;left:-35px;bottom:35px;width:250px;padding:28px;background:#17120e;color:#fff;box-shadow:0 25px 60px #0003}
+.about-card strong{font:45px "Playfair Display";color:var(--gold);display:block}.about-card span{font-size:12px;color:#ffffff99}
+.about-copy h2{font:600 clamp(42px,5vw,70px)/1.05 "Playfair Display";margin:15px 0 25px}
+.about-copy h2 span{color:var(--gold)}.about-copy p{color:#7d7269;line-height:2;margin-bottom:18px}
+.points{list-style:none;margin:28px 0}.points li{display:flex;align-items:center;gap:12px;margin:13px 0;font-size:13px}.points li:before{content:"✓";display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:var(--gold);color:#fff;font-size:11px}
+
+.products{background:#fff}
+.filters{display:flex;justify-content:center;gap:10px;margin-bottom:35px;flex-wrap:wrap}
+.filter{background:#f1ece5;border:0;padding:10px 20px;cursor:pointer;font-size:12px;transition:.3s}.filter.active,.filter:hover{background:#1a140f;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.product{background:#f7f3ed;overflow:hidden;position:relative;transition:.5s}.product:hover{transform:translateY(-8px);box-shadow:0 25px 60px #0002}
+.product-img{height:390px;overflow:hidden;position:relative}.product-img img{height:100%;object-fit:cover;transition:1s}.product:hover img{transform:scale(1.09)}
+.tag{position:absolute;top:16px;right:16px;background:#fff;padding:7px 12px;font-size:10px;z-index:2}
+.product-info{padding:23px}.product-info small{color:var(--gold);letter-spacing:2px}.product-info h3{font:600 27px "Playfair Display";margin:7px 0}.product-info p{font-size:12px;color:#897e74;line-height:1.8}
+
+.dark{background:var(--bg);color:#fff}.dark .section-title{color:#fff}.dark .section-sub{color:#ffffff66}
+.services{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.service{padding:45px 30px;border-left:1px solid var(--line);min-height:260px;transition:.4s}.service:last-child{border-left:0}.service:hover{background:#18130f}
+.service-num{font:22px "Playfair Display";color:var(--gold)}.service h3{font-size:20px;margin:35px 0 14px}.service p{color:#ffffff66;font-size:12px;line-height:2}
+
+.gallery{background:#e9e0d4}.gallery-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:20px;height:700px}.gallery-side{display:grid;grid-template-rows:1fr 1fr;gap:20px}.gallery-item{position:relative;overflow:hidden}.gallery-item img{height:100%;object-fit:cover;transition:1s}.gallery-item:hover img{transform:scale(1.07)}
+.gallery-caption{position:absolute;right:0;bottom:0;left:0;padding:45px 30px 25px;color:#fff;background:linear-gradient(transparent,#000c)}.gallery-caption h3{font:34px "Playfair Display"}
+
+.stats{background:var(--gold);padding:70px 25px}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);text-align:center}.stat{border-left:1px solid #0002}.stat:last-child{border:0}.stat strong{display:block;font:55px "Playfair Display"}.stat span{font-size:12px}
+
+.cta{position:relative;min-height:570px;display:grid;place-items:center;text-align:center;color:#fff;background:
+linear-gradient(#100c09d9,#100c09d9),url("WhatsApp Image 2026-10-07 at 11.10.12 PM.jpeg") center/cover fixed}
+.cta-inner{max-width:800px;padding:30px}.cta h2{font:600 clamp(48px,7vw,90px)/1 "Playfair Display"}.cta p{color:#ffffff99;line-height:2;max-width:580px;margin:25px auto 35px}
+
+footer{background:#090806;color:#fff;padding:70px 25px 25px}.footer-grid{max-width:1250px;margin:auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:50px}.footer-logo{font:700 30px "Playfair Display"}.footer-logo span{color:var(--gold)}.footer-text{color:#ffffff55;font-size:12px;line-height:2;margin-top:15px;max-width:300px}.footer h4{color:var(--gold);margin-bottom:18px;font-size:13px}.footer ul{list-style:none}.footer li{color:#ffffff66;font-size:12px;margin:10px 0}.footer li a:hover{color:#fff}.socials{display:flex;gap:8px;margin-top:16px}.socials a{border:1px solid #ffffff18;padding:7px 11px;color:#ffffff77;font-size:10px;transition:.3s}.socials a:hover{color:#fff;border-color:var(--gold)}
+.copyright{max-width:1250px;margin:55px auto 0;padding-top:20px;border-top:1px solid #ffffff12;text-align:center;color:#ffffff33;font-size:11px}
+
+.whatsapp{position:fixed;left:22px;bottom:22px;width:60px;height:60px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;z-index:9000;font-size:25px;box-shadow:0 10px 30px #0004;animation:pulse 2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 14px #25d36600,0 10px 30px #0004}}
+
+/* VIDEO */
+.video-section{background:#eee7dd}
+.video-box{position:relative;overflow:hidden;background:#111;box-shadow:0 30px 80px #0002}
+.video-box video{display:block;width:100%;max-height:650px;object-fit:cover}
+.video-label{position:absolute;right:25px;bottom:25px;background:#0d0b09dd;color:#fff;padding:13px 18px;display:flex;gap:18px;align-items:center;font-size:11px}
+.video-label span{color:var(--gold);letter-spacing:2px}.video-label b{font-weight:400;color:#ffffff99}
+/* ORDER */
+.order{background:#f7f1e8}
+.order-form{max-width:900px;margin:auto;background:#fff;padding:38px;display:grid;grid-template-columns:1fr 1fr;gap:20px;box-shadow:0 25px 70px #00000012}
+.field{display:flex;flex-direction:column;gap:8px}.field label{font-size:12px;color:#675c53}
+.field input,.field select,.field textarea{font:inherit;border:1px solid #ddd2c5;background:#faf8f4;padding:13px 14px;outline:0;font-size:13px}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold)}
+.field textarea{resize:vertical}.full{grid-column:1/-1}
+.order-form button{border:0;cursor:pointer}.order-msg{grid-column:1/-1;text-align:center;font-size:12px;color:#5e7c55}
+/* PRODUCT ORDER */
+.product-order{display:inline-block;margin-top:13px;color:var(--brown);font-size:12px;font-weight:700}
+
+/* RESPONSIVE FIXES: phones, tablets and small laptops */
+html { scroll-padding-top: 82px; }
+body.menu-open { overflow: hidden; }
+body { min-width: 320px; }
+button, input, select, textarea { max-width: 100%; }
+img, video { max-width: 100%; }
+.nav { gap: 16px; }
+.navlinks { gap: clamp(12px, 2.4vw, 35px); }
+.hero-content, .container, .footer-grid { width: 100%; }
+.order-form { width: 100%; min-width: 0; }
+.field { min-width: 0; }
+.field input, .field select, .field textarea { width: 100%; min-width: 0; border-radius: 5px; }
+.order-form button { min-height: 48px; }
+.video-box video { height: auto; }
+.gallery-item img { width: 100%; }
+.whatsapp { text-decoration: none; }
+
+@media (max-width: 1024px) {
+  .cursor { display: none; }
+  .nav { height: 72px; padding: 0 20px; }
+  .menu { display: block; cursor: pointer; padding: 8px; min-width: 44px; min-height: 44px; }
+  .navlinks {
+    position: fixed; top: 72px; right: 0; width: 100%;
+    height: calc(100dvh - 72px); height: calc(100vh - 72px);
+    background: #0d0b09; display: flex; flex-direction: column;
+    align-items: center; justify-content: flex-start; gap: 0;
+    padding: 18px 20px 35px; overflow-y: auto;
+    transform: translateX(105%); visibility: hidden;
+    transition: transform .3s ease, visibility .3s ease;
+    z-index: 1100;
+  }
+  .navlinks.open { transform: translateX(0); visibility: visible; right: 0; }
+  .navlinks li { width: 100%; max-width: 420px; text-align: center; }
+  .navlinks a { display: block; padding: 15px 12px; font-size: 16px; }
+  .navlinks a:after { display: none; }
+  .nav-cta { display: none; }
+  .hero-content { padding: 120px 28px 70px; }
+  .hero h1 { font-size: clamp(48px, 8vw, 76px); line-height: 1.08; }
+  .hero-text { max-width: 600px; }
+  .about-grid { grid-template-columns: 1fr 1fr; gap: 35px; }
+  .about-visual { height: 480px; }
+  .about-card { left: 12px; width: 210px; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .product-img { height: clamp(240px, 38vw, 360px); }
+  .services { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .service { border-bottom: 1px solid var(--line); }
+  .gallery-grid { height: 560px; }
+  .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 35px; }
+}
+
+@media (max-width: 700px) {
+  .section { padding: 70px 16px; }
+  .hero { height: auto; min-height: 680px; height: 100svh; }
+  .hero-content { padding: 110px 20px 90px; }
+  .kicker { font-size: 10px; letter-spacing: 2px; }
+  .hero h1 { font-size: clamp(39px, 11vw, 58px); overflow-wrap: anywhere; }
+  .hero-text { font-size: 13px; line-height: 1.9; margin-top: 20px; }
+  .hero-actions { flex-direction: column; gap: 10px; width: 100%; max-width: 360px; }
+  .btn { width: 100%; min-height: 48px; padding: 13px 18px; text-align: center; }
+  .hero-number { left: 18px; bottom: 20px; font-size: 16px; }
+  .scroll { display: none; }
+
+  .section-head { margin-bottom: 35px; }
+  .section-title { font-size: clamp(32px, 8vw, 48px); line-height: 1.2; }
+  .section-sub { font-size: 13px; line-height: 1.9; }
+  .about-grid { grid-template-columns: minmax(0, 1fr); gap: 38px; }
+  .about-visual { height: min(105vw, 430px); min-height: 280px; }
+  .about-card { left: 12px; bottom: 12px; width: 175px; padding: 16px; }
+  .about-card strong { font-size: 32px; }
+  .about-copy h2 { font-size: clamp(34px, 9vw, 48px); }
+  .points li { align-items: flex-start; line-height: 1.7; }
+
+  .filters { gap: 8px; }
+  .filter { padding: 10px 13px; }
+  .grid { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .product-img { height: clamp(230px, 75vw, 390px); }
+  .product-info { padding: 18px; }
+  .product-info h3 { font-size: 24px; }
+  .services { grid-template-columns: minmax(0, 1fr); }
+  .service { min-height: auto; padding: 28px 22px; border-left: 0; }
+  .service h3 { margin: 18px 0 10px; }
+
+  .gallery-grid { display: grid; grid-template-columns: minmax(0, 1fr); height: auto; gap: 14px; }
+  .gallery-grid > .gallery-item { height: 330px; }
+  .gallery-side { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: none; gap: 14px; }
+  .gallery-side .gallery-item { height: 250px; }
+  .gallery-caption { padding: 35px 18px 18px; }
+  .gallery-caption h3 { font-size: 25px; }
+
+  .stats { padding: 45px 16px; }
+  .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 25px 0; }
+  .stat { padding: 8px; }
+  .stat:nth-child(2) { border-left: 0; }
+  .stat strong { font-size: clamp(30px, 8vw, 42px); }
+  .stat span { font-size: 11px; }
+
+  .cta { min-height: 460px; background-attachment: scroll; }
+  .cta-inner { padding: 35px 20px; }
+  .cta h2 { font-size: clamp(37px, 10vw, 58px); line-height: 1.15; }
+  .cta p { font-size: 13px; }
+  .order-form { grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 20px 16px; }
+  .order-form .full, .order-msg { grid-column: 1; }
+  .field label { font-size: 13px; }
+  .field input, .field select, .field textarea { font-size: 16px; padding: 13px 12px; }
+  .field textarea { min-height: 110px; }
+  .video-box video { width: 100%; max-height: 60vh; }
+  .video-label { right: 8px; bottom: 8px; gap: 8px; padding: 8px 10px; font-size: 9px; }
+  footer { padding: 48px 18px 20px; }
+  .footer-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .copyright { margin-top: 35px; line-height: 1.8; }
+  .whatsapp { width: 52px; height: 52px; left: 14px; bottom: 14px; }
+}
+
+@media (max-width: 380px) {
+  .nav { padding: 0 12px; }
+  .logo { font-size: 22px; }
+  .hero-content { padding-right: 16px; padding-left: 16px; }
+  .hero h1 { font-size: 38px; }
+  .order-form { padding: 16px 12px; }
+  .product-img { height: 245px; }
+}
+
+</style>
+</head>
+
+<body>
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor"></div>
+
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">AL.QAPTAN</div>
+    <div class="loader-line"></div>
+    <small>FURNITURE • INTERIORS</small>
+  </div>
+</div>
+
+<header id="header">
+<nav class="nav">
+  <a class="logo" href="#home">AL<span>.</span>QAPTAN</a>
+  <button class="menu" id="menu" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navlinks">☰</button>
+  <ul class="navlinks" id="navlinks">
+    <li><a href="#home">الرئيسية</a></li>
+    <li><a href="#about">عن القبطان</a></li>
+    <li><a href="#products">المجموعات</a></li>
+    <li><a href="#services">خدماتنا</a></li>
+    <li><a href="#contact">تواصل معنا</a></li>
+  </ul>
+  <a class="nav-cta" href="#contact">اطلب تصميمك</a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="kicker">FURNITURE • INTERIORS • CRAFT</div>
+    <h1>نصنع <em>الفخامة</em><br>من تفاصيلها.</h1>
+    <p class="hero-text">أثاث مصمم بعناية لناس بتدور على حاجة مختلفة. خامات راقية، خطوط عصرية، وتشطيب يهتم بكل تفصيلة.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="#products">شوف مجموعتنا</a>
+      <a class="btn btn-outline" href="#about">اكتشف القبطان</a>
+    </div>
+  </div>
+  <div class="hero-number">01 / 04</div>
+  <div class="scroll">SCROLL</div>
+</section>
+
+<section class="section about" id="about">
+<div class="container">
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <img class="about-big" src="WhatsApp Image 2026-10-07 at 10.09.05 PM.jpeg" alt="تصميم داخلي فاخر">
+      <div class="about-card"><strong>15+</strong><span>سنة من الخبرة في عالم الأثاث</span></div>
+    </div>
+    <div class="about-copy reveal">
+      <div class="kicker">OUR STORY</div>
+      <h2>الأثاث مش قطعة.<br><span>دي شخصية المكان.</span></h2>
+      <p>في القبطان بنشوف كل بيت كحكاية مختلفة. علشان كده بنهتم إن كل قطعة تكون مناسبة للمكان، للذوق، ولطريقة حياتك.</p>
+      <p>من أول اختيار الخامة لحد آخر لمسة في التشطيب، هدفنا واحد: منتج يعيش معاك ويبان حلو بعد سنين.</p>
+      <ul class="points">
+        <li>خامات مختارة بعناية</li>
+        <li>تصميمات عصرية وفريدة</li>
+        <li>تنفيذ حسب المقاسات</li>
+        <li>اهتمام حقيقي بالتفاصيل</li>
+      </ul>
+      <a class="btn btn-gold" href="#contact">ابدأ مشروعك</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section products" id="products">
+<div class="container">
+  <div class="section-head reveal">
+    <div class="kicker">THE COLLECTION</div>
+    <h2 class="section-title">اختار القطعة اللي تشبهك</h2>
+    <p class="section-sub">مجموعة من التصميمات المختارة بعناية، من الستايل الهادئ لحد القطع اللي بتخطف العين.</p>
+  </div>
+  <div class="filters"> 
+  </div>
+  <div class="grid" id="productGrid">
+    <article class="product reveal" data-cat="living">
+      <div class="product-img"><span class="tag">NEW</span><img src="WhatsApp Image 2026-10-09 at 5.51.12 AM.jpeg" alt="NEW COLCTION"></div>
+      <div class="product-info"><small>بعد الخصم 5,100. ج</small><h3>اربع كراسي وترابيزه مدوره او مربعه شامل الزجاج</h3><p>تصميم مريح وراقي للمساحات العصرية.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="bed">
+      <div class="product-img"><span class="tag">NEW</span><img src="WhatsApp Image 2026-10-09 at 5.51.13 AM.jpeg" alt="   "></div>
+      <div class="product-info"><small>بعد الخصم 5,100.ج</small><h3>   اربع كراسي وترابيزه مدوره او مربعه شامل الزجاج </h3><p>ألوان هادئة وتفاصيل تخلي الراحة أسلوب حياة.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="dining">
+        <div class="product-img"><span class="tag">NEW</span><img src="WhatsApp Image 2026-10-09 at 5.51.14 AM.jpeg" alt="NEW COLCTION"></div>
+      <div class="product-info"><small>بعد الخصم 5,100. ج</small><h3>اربع كراسي وترابيزه مدوره او مربعه شامل الزجاج</h3><p>تصميم مريح وراقي للمساحات العصرية.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="living">
+        <div class="product-img"><span class="tag">NEW</span><img src="WhatsApp Image 2026-10-09 at 5.51.15 AM.jpeg" alt="NEW COLCTION"></div>
+      <div class="product-info"><small>بعد الخصم 5,100. ج</small><h3>اربع كراسي وترابيزه مدوره او مربعه شامل الزجاج</h3><p>تصميم مريح وراقي للمساحات العصرية.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="bed">
+      <div class="product-img"><img src="WhatsApp Image 2026-10-09 at 5.52.04 AM.jpeg" alt="الهدوء الكامل"></div>
+      <div class="product-info"><small>السعر:6500.ج</small><h3> E50 </h3><p>تصميم نظيف ومريح بعيد عن الزحمة.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="dining">
+      <div class="product-img"><img src="WhatsApp Image 2026-10-09 at 5.52.23 AM.jpeg" alt="طاولة الحكايات"></div>
+      <div class="product-info"><small>السعر:3200.ج</small><h3> E101   </h3><p>قطعة مركزية لذكريات العيلة والضيوف.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="living">
+      <div class="product-img"><span class="tag">HOT</span><img src="WhatsApp Image 2026-10-09 at 5.52.46 AM.jpeg" alt="جلسة مودرن"></div>
+      <div class="product-info"><small>السعر:25000.ج</small><h3>   V51</h3><p>أناقة عملية بتناسب المساحات الحديثة.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="bed">
+      <div class="product-img"><img src="WhatsApp Image 2026-10-09 at 5.53.13 AM.jpeg" alt="سرير فاخر"></div>
+      <div class="product-info"><small> السعر :38500.ج</small><h3> V55</h3><p>تفاصيل ناعمة وتصميم يرفع مستوى الغرفة.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="dining">
+      <div class="product-img"><img src="WhatsApp Image 2026-10-09 at 5.53.52 AM.jpeg" alt="طقم كلاسيك"></div>
+      <div class="product-info"><small>السعر:32500.ج</small><h3>V115</h3><p>روح كلاسيكية بلمسة معاصرة.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="living">
+      <div class="product-img"><img src="WhatsApp Image 2026-10-09 at 5.54.23 AM.jpeg" alt="ركنة القبطان"></div>
+      <div class="product-info"><small>السعر:8500.ج</small><h3>E60</h3><p>راحة وأناقة في قطعة واحدة.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="bed">
+      <div class="product-img"><span class="tag">NEW</span><img src="WhatsApp Image 2026-10-09 at 5.55.16 AM.jpeg" alt="نايت ستاند"></div>
+      <div class="product-info"><small>السعر:18500.ج</small><h3>V205</h3><p>قطعة صغيرة بتفاصيل كبيرة.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="dining">
+      <div class="product-img"><img src="WhatsApp Image 2026-10-09 at 5.56.11 AM.jpeg" alt="كونسول فاخر"></div>
+      <div class="product-info"><small>السعر :1500.ج.لفتره محدوده</small><h3>E11</h3><p>لمسة مميزة للمدخل وغرفة الطعام.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="living">
+      <div class="product-img"><img src="WhatsApp Image 2026-10-09 at 5.56.29 AM.jpeg" alt="كرسي Lounge"></div>
+      <div class="product-info"><small>السعر:5500.ج.لفترة محدودة</small><h3> E20</h3><p>راحة عالية وشكل يلفت النظر.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="bed">
+      <div class="product-img"><img src="WhatsApp Image 2026-10-09 at 5.56.48 AM.jpeg" alt="وحدة جانبية"></div>
+      <div class="product-info"><small>السعر:7500.ج.لفترة محدودة</small><h3> E22 </h3><p>تنظيم أنيق بتصميم بسيط.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="dining">
+      <div class="product-img"><span class="tag">LIMITED</span><img src="WhatsApp Image 2026-10-09 at 5.57.48 AM.jpeg" alt="طاولة Signature"></div>
+      <div class="product-info"><small>السعر:7500.ج.لفترة محدودة</small><h3>  E30 </h3><p>قطعة مميزة للبيوت اللي بتحب الاختلاف.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+        <article class="product reveal" data-cat="dining">
+      <div class="product-img"><span class="tag">LIMITED</span><img src="WhatsApp Image 2026-10-09 at 5.58.28 AM.jpeg" alt="طاولة Signature"></div>
+      <div class="product-info"><small>السعر:32000.ج.لفترة محدودة</small><h3>  V155  </h3><p>قطعة مميزة للبيوت اللي بتحب الاختلاف.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+     <article class="product reveal" data-cat="dining">
+      <div class="product-img"><span class="tag">LIMITED</span><img src="WhatsApp Image 2026-10-09 at 6.01.18 AM.jpeg" alt="طاولة Signature"></div>
+      <div class="product-info"><small>السعر:1500.ج.لفترة محدودة</small><h3>  E15   </h3><p>قطعة مميزة للبيوت اللي بتحب الاختلاف.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="dining">
+      <div class="product-img"><span class="tag">LIMITED</span><img src="WhatsApp Image 2026-10-09 at 6.02.10 AM.jpeg" alt="طاولة Signature"></div>
+      <div class="product-info"><small>السعر:13500.ج.لفترة محدودة</small><h3>  E260  </h3><p>قطعة مميزة للبيوت اللي بتحب الاختلاف.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+    <article class="product reveal" data-cat="dining">
+      <div class="product-img"><span class="tag">LIMITED</span><img src="WhatsApp Image 2026-10-09 at 6.04.23 AM.jpeg" alt="طاولة Signature"></div>
+      <div class="product-info"><small>السعر:18500.ج.لفترة محدودة</small><h3>  E950  </h3><p>قطعة مميزة للبيوت اللي بتحب الاختلاف.</p><a class="product-order" href="#order">اطلب القطعة ←</a></div>
+    </article>
+  </div>
+</div>
+</section>
+
+<section class="section video-section" id="video">
+<div class="container">
+  <div class="section-head reveal">
+    <div class="kicker">OUR WORLD</div>
+    <h2 class="section-title">شوف القبطان من جوه</h2>
+    <p class="section-sub">لقطة سريعة من أجواء الأثاث والتصميم والتفاصيل اللي بنهتم بيها.</p>
+  </div>
+  <div class="video-box reveal">
+    <video controls playsinline poster="WhatsApp Image 2026-10-07 at 9.57.03 PM.jpeg">
+      <source src="WhatsApp Video 2026-10-07 at 11.28.24 PM.mp4" type="video/mp4">
+      المتصفح لا يدعم تشغيل الفيديو.
+    </video>
+    <div class="video-label"><span>AL.QAPTAN</span><b>Furniture / Interiors</b></div>
+  </div>
+</div>
+</section>
+
+<section class="section dark" id="services">
+<div class="container">
+  <div class="section-head reveal">
+    <div class="kicker">OUR PROCESS</div>
+    <h2 class="section-title">من الفكرة لحد بيتك</h2>
+    <p class="section-sub">مش بنبيعك قطعة وبس. بنمشي معاك في كل خطوة علشان النتيجة تطلع زي ما في دماغك.</p>
+  </div>
+  <div class="services">
+    <div class="service reveal"><div class="service-num">01</div><h3>استشارة</h3><p>نفهم المساحة والذوق والميزانية قبل أي خطوة.</p></div>
+    <div class="service reveal"><div class="service-num">02</div><h3>تصميم</h3><p>نحول فكرتك لتصميم واضح ومتناسق مع المكان.</p></div>
+    <div class="service reveal"><div class="service-num">03</div><h3>تصنيع</h3><p>تنفيذ دقيق بخامات وتشطيبات مختارة بعناية.</p></div>
+    <div class="service reveal"><div class="service-num">04</div><h3>تسليم</h3><p>نوصلك بالمنتج النهائي جاهز لمكانه.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="section gallery">
+<div class="container">
+  <div class="section-head reveal">
+    <div class="kicker">INSPIRATION</div>
+    <h2 class="section-title">المكان بيتكلم عنك</h2>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item reveal"><img src="WhatsApp Image 2026-10-07 at 9.57.07 PM.jpeg" alt="تصميم داخلي"><div class="gallery-caption"><h3>أناقة بدون مبالغة</h3></div></div>
+    <div class="gallery-side">
+      <div class="gallery-item reveal"><img src="WhatsApp Image 2026-10-07 at 9.57.08 PM.jpeg" alt="أثاث"><div class="gallery-caption"><h3>دفء الخشب</h3></div></div>
+      <div class="gallery-item reveal"><img src="WhatsApp Image 2026-10-07 at 10.09.06 PM.jpeg" alt=" "><div class="gallery-caption"><h3>تفاصيل فاخرة</h3></div></div>
+    </div>
+  </div>
+</div>
+</section><br><br><br>
+
+<section class="stats">
+<div class="container"><div class="stats-grid">
+  <div class="stat"><strong>15+</strong><span>سنة خبرة</span></div>
+  <div class="stat"><strong>850+</strong><span>مشروع مكتمل</span></div>
+  <div class="stat"><strong>600+</strong><span>عميل</span></div>
+  <div class="stat"><strong>100%</strong><span>اهتمام بالتفاصيل</span></div>
+</div></div>
+</section>
+
+<section class="section order" id="order">
+<div class="container">
+  <div class="section-head reveal">
+    <div class="kicker">ORDER NOW</div>
+    <h2 class="section-title">احجز أوردر من هنا</h2>
+    <p class="section-sub">املأ البيانات، واختار المنتج، وهيتجهزلك طلب مبدئي للتواصل والتأكيد.</p>
+  </div>
+  <form class="order-form reveal" id="orderForm">
+    <div class="field"><label>الاسم بالكامل</label><input required name="name" placeholder="اكتب اسمك"></div>
+    <div class="field"><label>رقم الموبايل</label><input required name="phone" type="tel" placeholder="01xxxxxxxxx"></div>
+    <div class="field"><label>اختار المنتج</label>
+      <select required name="product">
+        <option value="">اختار منتج</option> 
+      </select>
+    </div>
+    <div class="field"><label>الكمية</label><input required name="qty" type="number" min="1" value="1"></div>
+    <div class="field full"><label>ملاحظات / المقاسات</label><textarea name="notes" rows="5" placeholder="اكتب اللون، المقاس، أو أي تفاصيل إضافية"></textarea></div>
+    <button class="btn btn-gold full" type="submit">إرسال الطلب على واتساب</button>
+    <div id="orderMsg" class="order-msg"></div>
+  </form>
+</div>
+</section>
+
+<section class="cta" id="contact">
+<div class="cta-inner reveal">
+  <div class="kicker">LET'S CREATE</div>
+  <h2>جاهز تعمل مكان<br>مش شبه أي مكان؟</h2>
+  <p>ابعتلنا فكرتك، وخلي القبطان يحولها لتصميم وأثاث يليق بيك.</p>
+  <a class="btn btn-gold" href="https://wa.me/201016489416" target="_blank">كلمنا على واتساب</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="footer-grid">
+  <div><div class="footer-logo">AL<span>.</span>QAPTAN</div><p class="footer-text">أثاث وتصميمات داخلية بتجمع بين الخامة الراقية، التصميم العصري، والتفاصيل اللي بتفرق.</p></div>
+  <div><h4>الصفحات</h4><ul><li><a href="#home">الرئيسية</a></li><li><a href="#about">عن القبطان</a></li><li><a href="#products">المجموعات</a></li><li><a href="#services">خدماتنا</a></li></ul></div>
+  
+  <div><h4>تواصل</h4><ul><li>القناطر الخيريه</li><li><a href="tel:+201016489416">01039578371</a></li><li><a href="mailto:reda.rayed555@gmail.com">reda.rayed555@gmail.com</a></li><li>متاحين طوال الأسبوع</li></ul><div class="socials"><a href="https://www.facebook.com/share/1CwowQS7oE/" target="_blank" aria-label="Facebook">Facebook</a><a href="https://www.tiktok.com/@elqobtan.f?_r=1&_t=ZS-9AMGQhVaX2a" target="_blank" aria-label="TikTok">TikTok</a></div></div>
+</div>
+<div class="copyright">© 2026 AL-QAPTAN Furniture — جميع الحقوق محفوظة</div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/201016489416" target="_blank" aria-label="WhatsApp">☎</a>
+
+<script>
+window.addEventListener("load",()=>setTimeout(()=>document.getElementById("loader").classList.add("hide"),700));
+
+const header=document.getElementById("header");
+const progress=document.getElementById("progress");
+window.addEventListener("scroll",()=>{
+  header.classList.toggle("scrolled",scrollY>40);
+  const h=document.documentElement.scrollHeight-innerHeight;
+  progress.style.width=(scrollY/h*100)+"%";
+});
+
+const menu=document.getElementById("menu"), nav=document.getElementById("navlinks");
+function closeMenu(){
+  nav.classList.remove("open");
+  menu.textContent = "☰";
+  menu.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("menu-open");
+}
+menu.onclick = () => {
+  const isOpen = nav.classList.toggle("open");
+  menu.textContent = isOpen ? "✕" : "☰";
+  menu.setAttribute("aria-expanded", String(isOpen));
+  document.body.classList.toggle("menu-open", isOpen);
+};
+document.querySelectorAll(".navlinks a").forEach(a => a.addEventListener("click", closeMenu));
+window.addEventListener("resize", () => { if (window.innerWidth > 1024) closeMenu(); });
+
+const observer=new IntersectionObserver(entries=>{
+ entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("show")});
+},{threshold:.12});
+document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+
+const filters=document.querySelectorAll(".filter"), products=document.querySelectorAll(".product");
+filters.forEach(btn=>btn.addEventListener("click",()=>{
+ filters.forEach(b=>b.classList.remove("active"));btn.classList.add("active");
+ const f=btn.dataset.filter;
+ products.forEach(p=>{p.style.display=(f==="all"||p.dataset.cat===f)?"block":"none"});
+}));
+
+const cursor=document.getElementById("cursor");
+window.addEventListener("mousemove",e=>{cursor.style.left=e.clientX+"px";cursor.style.top=e.clientY+"px"});
+document.querySelectorAll("a,button").forEach(el=>{
+ el.addEventListener("mouseenter",()=>{cursor.style.width="35px";cursor.style.height="35px"});
+ el.addEventListener("mouseleave",()=>{cursor.style.width="12px";cursor.style.height="12px"});
+});
+// Fill the product dropdown from the product cards.
+const productSelect = document.querySelector('#orderForm select[name="product"]');
+if (productSelect) {
+  document.querySelectorAll("#productGrid .product").forEach((card, index) => {
+    const title = card.querySelector(".product-info h3")?.textContent.trim() || `منتج ${index + 1}`;
+    const option = document.createElement("option");
+    option.value = title;
+    option.textContent = title;
+    productSelect.appendChild(option);
+  });
+  document.querySelectorAll(".product-order").forEach(link => {
+    link.addEventListener("click", () => {
+      const card = link.closest(".product");
+      const title = card?.querySelector(".product-info h3")?.textContent.trim();
+      if (title) productSelect.value = title;
+    });
+  });
+}
+
+const orderForm=document.getElementById("orderForm");
+if(orderForm){
+ orderForm.addEventListener("submit",e=>{
+  e.preventDefault();
+  const d=new FormData(orderForm);
+  const msg=`طلب جديد من موقع القبطان%0A%0Aالاسم: ${encodeURIComponent(d.get("name"))}%0Aالموبايل: ${encodeURIComponent(d.get("phone"))}%0Aالمنتج: ${encodeURIComponent(d.get("product"))}%0Aالكمية: ${encodeURIComponent(d.get("qty"))}%0Aالملاحظات: ${encodeURIComponent(d.get("notes")||"لا يوجد")}`;
+  window.open("https://wa.me/201016489416?text="+msg,"_blank");
+  document.getElementById("orderMsg").textContent="تم تجهيز الطلب، هيفتح واتساب لإرساله.";
+ });
+}
+</script>
+</body>
+</html>
